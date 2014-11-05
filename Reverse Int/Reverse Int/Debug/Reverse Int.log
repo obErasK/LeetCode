@@ -1,17 +1,22 @@
-﻿生成启动时间为 2014/11/4 11:15:19。
+﻿生成启动时间为 2014/11/5 17:22:54。
      1>项目“E:\Github\LeetCode\Reverse Int\Reverse Int\Reverse Int.vcxproj”在节点 2 上(build 个目标)。
-     1>PrepareForBuild:
-         正在创建目录“E:\Github\LeetCode\Reverse Int\Debug\”。
-       InitializeBuildStatus:
+     1>InitializeBuildStatus:
          正在创建“Debug\Reverse Int.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
        ClCompile:
          d:\VisualStudio2010\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt "Reverse Int.cpp"
          Reverse Int.cpp
-     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Platforms\Win32\Microsoft.Cpp.Win32.Targets(147,5): error MSB6006: “CL.exe”已退出，代码为 2。
-     1>e:\github\leetcode\reverse int\reverse int\reverse int.cpp(6): error C2143: 语法错误 : 缺少“;”(在“}”的前面)
-     1>e:\github\leetcode\reverse int\reverse int\reverse int.cpp(6): warning C4390: “;”: 找到空的受控语句；这是否是有意的?
-     1>已完成生成项目“E:\Github\LeetCode\Reverse Int\Reverse Int\Reverse Int.vcxproj”(build 个目标)的操作 - 失败。
+     1>e:\github\leetcode\reverse int\reverse int\reverse int.cpp(21): warning C4244: “+=”: 从“double”转换到“int”，可能丢失数据
+       Link:
+         d:\VisualStudio2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Github\LeetCode\Reverse Int\Debug\Reverse Int.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Reverse Int.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\Github\LeetCode\Reverse Int\Debug\Reverse Int.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Github\LeetCode\Reverse Int\Debug\Reverse Int.lib" /MACHINE:X86 "Debug\Reverse Int.obj"
+         LINK : 没有找到 E:\Github\LeetCode\Reverse Int\Debug\Reverse Int.exe 或上一个增量链接没有生成它；正在执行完全链接
+         Reverse Int.vcxproj -> E:\Github\LeetCode\Reverse Int\Debug\Reverse Int.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\Github\LeetCode\Reverse Int\Debug\Reverse Int.exe;#1" /manifest "Debug\Reverse Int.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         正在删除文件“Debug\Reverse Int.unsuccessfulbuild”。
+         正在对“Debug\Reverse Int.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\Github\LeetCode\Reverse Int\Reverse Int\Reverse Int.vcxproj”(build 个目标)的操作。
 
-生成失败。
+生成成功。
 
-已用时间 00:00:01.83
+已用时间 00:00:00.57
