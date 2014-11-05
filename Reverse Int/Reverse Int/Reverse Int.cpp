@@ -24,7 +24,7 @@ int reverse (int x){
 
 void main()
 {
-	for(int i = 0; i<5;i++){
+	for(int i = 0; i<1;i++){
 		int x;
 		cin>>x;
 		cout<<reverse(x)<<endl;
