@@ -14,7 +14,7 @@ using namespace std;
 
 vector<TreeNode*> gTrees(int begin, int end) {
 		std::vector<TreeNode*> v;
-        if(begin>end) { v.push_back(NULL); return v; }
+        if(begin>end) { v.push_back(0); return v; }
 
         if(begin==end) {
         	TreeNode *pNode = new TreeNode(begin);
@@ -27,11 +27,12 @@ vector<TreeNode*> gTrees(int begin, int end) {
         	vleft = gTrees(begin,i-1);
         	vright = gTrees(i+1,end);
 
-        	for(int k = 0; k<vleft.size();k++){
+        	for(int k = 0; k<=vleft.size();k++){
 	        	for(int j = 0; j<vright.size();j++){
 	        		TreeNode* temp = new TreeNode(i);
 	        		temp->left = vleft.at(k);
 	        		temp->right = vright.at(j);
+	        		v.push_back(temp);
 	        	}
 	        }
         }
