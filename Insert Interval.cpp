@@ -13,32 +13,32 @@ using namespace std;
         
 //     }
 
-class A
-{
-public:
-	A(){fun();}
-	//~A();
+// class A
+// {
+// public:
+// 	A(){fun();}
+// 	//~A();
 
-	virtual void fun(){
-		cout<<"A class"<<endl;
-	}
+// 	virtual void fun(){
+// 		cout<<"A class"<<endl;
+// 	}
 	
-};
+// };
 
-class B:public A
-{
-public:
-	B(){fun();}
-	//~B();
-	void fun(){
-		cout<<"B class"<<endl;
-	}
-};
+// class B:public A
+// {
+// public:
+// 	B(){fun();}
+// 	//~B();
+// 	void fun(){
+// 		cout<<"B class"<<endl;
+// 	}
+// };
 
-int main(){
-	A *p = new B();
-	p->fun();
-	return 0;
-}
+// int main(){
+// 	A *p = new B();
+// 	p->fun();
+// 	return 0;
+// }
 
 
