@@ -19,7 +19,14 @@ int main()
 		{
 			string s;
 			cin>>s;
+			if(j>0)
+			{
+				
+			}
 			tmp.push_back(s);
 		}
+
+		//insert sort
+
 	}
 }
